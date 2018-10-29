@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TrainingSuite">
+
+<test thread-count="1" name="Test5">
+<classes>
+<class name="cool.Test5" >
+<methods>
+<include name= "Test1" />
+</methods>
+</class>
+</classes>
+</test>
+
+<test thread-count="1" name="Test6">
+<classes>
+<class name="cool.Test6" >
+<methods>
+<include name= "Test2" />
+</methods>
+</class>
+<class name="cool.Test7" >
+<methods>
+<include name= "Test3" />
+</methods>
+</class>
+</classes>
+</test>
+
+
+</suite>

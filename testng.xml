@@ -1,0 +1,10 @@
+<suite name="TrainingSuite">
+<test thread-count="1" name="TrainingTest">
+<classes>
+<class name="cool.Test1" />
+<methods>
+<include name= "Test1" />
+</methods>
+</classes>
+</test>
+</suite>
